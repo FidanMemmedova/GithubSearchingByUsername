@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+strong {
+    color: red
+}
+
+h1 {
+    margin: 20px;
+    color: green;
+    padding: 20px;
+}
+
+form {
+    width: auto;
+    height: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+form input {
+    border: 0;
+    height: 100%;
+    width: 300px;
+    padding-left: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+form button {
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    width: auto;
+    height: 100%;
+    border: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 0 15px;
+    position: absolute;
+    
+}
+
+button:hover {
+    background-color: orange;
+}
+#myDiv{
+    background-color: white;
+    border: 1px solid black;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+#myDiv img {
+    width: 300px;
+    height: auto;
+    border-radius: 50%
+}
+#myDiv h1{
+    padding: 0;
+}
+#myDiv h2{
+    margin-bottom: 10px;
+}
